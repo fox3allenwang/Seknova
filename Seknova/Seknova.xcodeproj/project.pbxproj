@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E793DE7B4938A9E4029E30A /* Pods_Seknova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C871EA4AA14614EA8436E0 /* Pods_Seknova.framework */; };
+		D861A86B2724478D000F8B6D /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861A86A2724478D000F8B6D /* RealmModel.swift */; };
+		D861A86E272447D3000F8B6D /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861A86C272447D3000F8B6D /* RegisterVC.swift */; };
+		D861A86F272447D3000F8B6D /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D861A86D272447D3000F8B6D /* RegisterVC.xib */; };
+		D88458D527216A0C000ACA90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88458D427216A0C000ACA90 /* AppDelegate.swift */; };
+		D88458D727216A0C000ACA90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88458D627216A0C000ACA90 /* SceneDelegate.swift */; };
+		D88458E127216A10000ACA90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88458DF27216A10000ACA90 /* LaunchScreen.storyboard */; };
+		D8D399A727224C410012FB27 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D399A527224C410012FB27 /* MainVC.swift */; };
+		D8D399A827224C410012FB27 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D399A627224C410012FB27 /* MainVC.xib */; };
+		D8D399AB27224DE10012FB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D399AA27224DE10012FB27 /* Assets.xcassets */; };
+		D8D399B327226A260012FB27 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D399B227226A260012FB27 /* CustomButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4250C909703CBA9316816320 /* Pods-Seknova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seknova.release.xcconfig"; path = "Target Support Files/Pods-Seknova/Pods-Seknova.release.xcconfig"; sourceTree = "<group>"; };
+		5F109880A5F411FB6A43F680 /* Pods-Seknova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seknova.debug.xcconfig"; path = "Target Support Files/Pods-Seknova/Pods-Seknova.debug.xcconfig"; sourceTree = "<group>"; };
+		D861A86A2724478D000F8B6D /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		D861A86C272447D3000F8B6D /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		D861A86D272447D3000F8B6D /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+		D88458D127216A0C000ACA90 /* Seknova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seknova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88458D427216A0C000ACA90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D88458D627216A0C000ACA90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D88458E027216A10000ACA90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D88458E227216A10000ACA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D399A527224C410012FB27 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		D8D399A627224C410012FB27 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		D8D399AA27224DE10012FB27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8D399B227226A260012FB27 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F7C871EA4AA14614EA8436E0 /* Pods_Seknova.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seknova.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88458CE27216A0C000ACA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E793DE7B4938A9E4029E30A /* Pods_Seknova.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49C79B746A1E63129C3FD441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7C871EA4AA14614EA8436E0 /* Pods_Seknova.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81ED1BE0099353EAC21CB5A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F109880A5F411FB6A43F680 /* Pods-Seknova.debug.xcconfig */,
+				4250C909703CBA9316816320 /* Pods-Seknova.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D861A86727244739000F8B6D /* RealmModel */ = {
+			isa = PBXGroup;
+			children = (
+				D861A86A2724478D000F8B6D /* RealmModel.swift */,
+			);
+			path = RealmModel;
+			sourceTree = "<group>";
+		};
+		D861A86827244751000F8B6D /* RegisterFrame */ = {
+			isa = PBXGroup;
+			children = (
+				D861A86C272447D3000F8B6D /* RegisterVC.swift */,
+				D861A86D272447D3000F8B6D /* RegisterVC.xib */,
+			);
+			path = RegisterFrame;
+			sourceTree = "<group>";
+		};
+		D861A86927244765000F8B6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D861A86727244739000F8B6D /* RealmModel */,
+				D8D399B1272269E50012FB27 /* UIkitModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D88458C827216A0C000ACA90 = {
+			isa = PBXGroup;
+			children = (
+				D88458D327216A0C000ACA90 /* Seknova */,
+				D88458D227216A0C000ACA90 /* Products */,
+				81ED1BE0099353EAC21CB5A9 /* Pods */,
+				49C79B746A1E63129C3FD441 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D88458D227216A0C000ACA90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88458D127216A0C000ACA90 /* Seknova.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88458D327216A0C000ACA90 /* Seknova */ = {
+			isa = PBXGroup;
+			children = (
+				D861A86927244765000F8B6D /* Model */,
+				D861A86827244751000F8B6D /* RegisterFrame */,
+				D8D399A927224C460012FB27 /* MainVC */,
+				D88458D427216A0C000ACA90 /* AppDelegate.swift */,
+				D88458D627216A0C000ACA90 /* SceneDelegate.swift */,
+				D88458DF27216A10000ACA90 /* LaunchScreen.storyboard */,
+				D8D399AA27224DE10012FB27 /* Assets.xcassets */,
+				D88458E227216A10000ACA90 /* Info.plist */,
+			);
+			path = Seknova;
+			sourceTree = "<group>";
+		};
+		D8D399A927224C460012FB27 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				D8D399A527224C410012FB27 /* MainVC.swift */,
+				D8D399A627224C410012FB27 /* MainVC.xib */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		D8D399B1272269E50012FB27 /* UIkitModel */ = {
+			isa = PBXGroup;
+			children = (
+				D8D399B227226A260012FB27 /* CustomButton.swift */,
+			);
+			path = UIkitModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88458D027216A0C000ACA90 /* Seknova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88458E527216A10000ACA90 /* Build configuration list for PBXNativeTarget "Seknova" */;
+			buildPhases = (
+				CFE1376FC38BB91428091F83 /* [CP] Check Pods Manifest.lock */,
+				D88458CD27216A0C000ACA90 /* Sources */,
+				D88458CE27216A0C000ACA90 /* Frameworks */,
+				D88458CF27216A0C000ACA90 /* Resources */,
+				F4DE6B176C84E6A890D8B7FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seknova;
+			productName = Seknova;
+			productReference = D88458D127216A0C000ACA90 /* Seknova.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D88458C927216A0C000ACA90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D88458D027216A0C000ACA90 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = D88458CC27216A0C000ACA90 /* Build configuration list for PBXProject "Seknova" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D88458C827216A0C000ACA90;
+			productRefGroup = D88458D227216A0C000ACA90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88458D027216A0C000ACA90 /* Seknova */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D88458CF27216A0C000ACA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D399A827224C410012FB27 /* MainVC.xib in Resources */,
+				D861A86F272447D3000F8B6D /* RegisterVC.xib in Resources */,
+				D8D399AB27224DE10012FB27 /* Assets.xcassets in Resources */,
+				D88458E127216A10000ACA90 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFE1376FC38BB91428091F83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Seknova-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4DE6B176C84E6A890D8B7FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seknova/Pods-Seknova-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seknova/Pods-Seknova-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Seknova/Pods-Seknova-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88458CD27216A0C000ACA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D399B327226A260012FB27 /* CustomButton.swift in Sources */,
+				D88458D527216A0C000ACA90 /* AppDelegate.swift in Sources */,
+				D8D399A727224C410012FB27 /* MainVC.swift in Sources */,
+				D861A86E272447D3000F8B6D /* RegisterVC.swift in Sources */,
+				D861A86B2724478D000F8B6D /* RealmModel.swift in Sources */,
+				D88458D727216A0C000ACA90 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D88458DF27216A10000ACA90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88458E027216A10000ACA90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D88458E327216A10000ACA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D88458E427216A10000ACA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D88458E627216A10000ACA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F109880A5F411FB6A43F680 /* Pods-Seknova.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Seknova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Seknova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D88458E727216A10000ACA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4250C909703CBA9316816320 /* Pods-Seknova.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Seknova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Seknova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D88458CC27216A0C000ACA90 /* Build configuration list for PBXProject "Seknova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88458E327216A10000ACA90 /* Debug */,
+				D88458E427216A10000ACA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88458E527216A10000ACA90 /* Build configuration list for PBXNativeTarget "Seknova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88458E627216A10000ACA90 /* Debug */,
+				D88458E727216A10000ACA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D88458C927216A0C000ACA90 /* Project object */;
+}
